@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Styled Website</title>
+    <style>
+        body {
+            background-color: #eb4934; /* Light grey background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #2e4053;
+            border-bottom: 2px solid #3498db;
+        }
+
+        p {
+            color: #5d6d7e;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This page looks much better with CSS.</p>
+</body>
+</html>
